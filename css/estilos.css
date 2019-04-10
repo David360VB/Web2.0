@@ -5,30 +5,25 @@ background-color: #02010a;
 
 
 }
-header{
+header {
 background-color: #5b7989;
 border-radius: 10px;
+}
 
-}
-header h1{
-color:  white;
-position: left;
-text-shadow: 2px 2px #02010a;
-text-align: left
-}
-header h2{
-    
-}
-header b{
-vertical-align: 40px;
-}
+    h1{
+    color:  white;
+    position: left;
+    text-shadow: 2px 2px #02010a;
+    text-align: left
+    }
+        header b{
+        vertical-align: 40px;
+        }
+    nav{
+    text-align: right;
+    color: white;
+    }
 #central{
 background-color: #82c3a6;
 }
-#segundo{
 
-
-
-
-
-}
