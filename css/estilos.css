@@ -19,11 +19,21 @@ border-radius: 10px;
         header b{
         vertical-align: 40px;
         }
-    nav{
-    text-align: right;
+    .top{
+    float: right;
     color: white;
     }
-#central{
+.central{
 background-color: #82c3a6;
 }
+.img2{
+color: #d5c75f;
+position: center;
 
+}
+.im2{
+float: left;
+}
+.im3{
+float: right;
+}
