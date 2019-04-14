@@ -13,9 +13,8 @@ background-color: #02010a;
     }
         header img {
         position: left;
-        margin-left: 1%;
-        
-    }
+        margin-left: 1%; 
+        }
 
         .titulo {
         width: 50%;
@@ -38,18 +37,39 @@ background-color: #02010a;
 background-color: #82c3a6;
 display: flex;
 }
-.centro {
-display: block;
+    .centro {
+    display: block;
+    margin: auto;
+    }
+
+.segundo {
+background-color: #d5c75f;
+border-radius: 1px;
+display: flex;
 margin: auto;
 }
-.img2 {
-color: #d5c75f;
-display: inline-block;
-text-align: center
-}
-.izq {
-float: left;
-}
-.der {
-float: right;
-}
+    .imagen {
+    position: relative;
+    left: 10%;
+    right: 20%;
+    text-align: center;
+    }
+        .imagen img:hover {
+        transform: rotate(10deg);
+	    box-shadow: 2px 2px #82c3a6;
+        }
+    .imagen2 {
+    position: relative;
+    left: 20%;
+    right: 10%;
+    text-align: center;
+    }   
+        .imagen2 img:hover {
+        transform:translatey(-5px) translateX(20px);
+        box-shadow: 2px 2px #82c3a6;
+        }
+    
+    
+    
+    
+    
