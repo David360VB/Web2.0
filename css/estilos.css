@@ -3,35 +3,40 @@ font-family: 'Dancing Script', cursive;
 src: url(https://fonts.google.com/specimen/Dancing+Script?selection.family=Dancing+Script);
 background-color: #02010a;
 
-
 }
-header {
-background-color: #5b7989;
-border-radius: 10px;
-}
+    header {
+    background-color: #5b7989;
+    display: flex;
+    border-radius: 10px;
+    }
 
-    h1{
-    color:  white;
+    header h1 {
     position: left;
     text-shadow: 2px 2px #02010a;
-    text-align: left
-    }
-        header b{
-        vertical-align: 40px;
-        }
-    .top{
-    float: right;
     color: white;
+    text-align: left;
+    vertical-align: 40px;    
     }
-.central{
+
+        nav {
+        position: right;
+        color: white;
+        }
+.central {
 background-color: #82c3a6;
+clear: both;
+
+
+
+margin: auto;
 }
-.img2{
+
+
+.img2 {
 color: #d5c75f;
 position: center;
-
 }
-.im2{
+.im2 {
 float: left;
 }
 .im3{
