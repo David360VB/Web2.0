@@ -7,21 +7,28 @@ background-color: #02010a;
     header {
     background-color: #5b7989;
     display: flex;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     }
-
-    header h1 {
+    header img {
     position: left;
-    text-shadow: 2px 2px #02010a;
-    color: white;
-    text-align: left;
-    vertical-align: 40px;    
     }
+    header h1 {
+    text-shadow: 2px 2px #02010a;
+    text-align: left;
+    vertical-align: 40px;  
+    color: white;
+    }
+    header nav  {
+    float: right;
+    text-align: right;
+    }
+    .link {
+    color: white;
 
-        nav {
-        position: right;
-        color: white;
-        }
+    }
+    
+
+    
 .central {
 background-color: #82c3a6;
 clear: both;
