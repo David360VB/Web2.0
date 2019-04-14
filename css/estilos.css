@@ -8,44 +8,48 @@ background-color: #02010a;
     background-color: #5b7989;
     display: flex;
     border-radius: 10px 10px 0px 0px;
-    }
-    header img {
-    position: left;
-    }
-    header h1 {
-    text-shadow: 2px 2px #02010a;
-    text-align: left;
-    vertical-align: 40px;  
     color: white;
+    margin: auto;
     }
-    header nav  {
-    float: right;
-    text-align: right;
+        header img {
+        position: left;
+        margin-left: 1%;
+        
     }
-    .link {
-    color: white;
 
-    }
-    
-
-    
+        .titulo {
+        width: 50%;
+        height: 60%;
+        text-align: left;
+        text-shadow: 2px 2px #02010a;
+        
+        }
+        .nave {
+        width: 50%;
+        height: 60%;
+        text-align: right;
+        margin-right: 1%;
+        display: block;
+        }
+        .link {
+        color: white;
+        }    
 .central {
 background-color: #82c3a6;
-clear: both;
-
-
-
+display: flex;
+}
+.centro {
+display: block;
 margin: auto;
 }
-
-
 .img2 {
 color: #d5c75f;
-position: center;
+display: inline-block;
+text-align: center
 }
-.im2 {
+.izq {
 float: left;
 }
-.im3{
+.der {
 float: right;
 }
