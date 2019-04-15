@@ -1,0 +1,91 @@
+body{
+font-family: 'Dancing Script', cursive;
+src: url(https://fonts.google.com/specimen/Dancing+Script?selection.family=Dancing+Script);
+background-color: #02010a;
+
+}
+    header {
+    background-color: #5b7989;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    margin: auto;
+    }
+        header img {
+        position: left;
+        margin-left: 1%; 
+        }
+
+        .titulo {
+        width: 50%;
+        height: 60%;
+        text-align: left;
+        text-shadow: 2px 2px #02010a;
+        
+        }
+        .nave {
+        width: 50%;
+        height: 60%;
+        text-align: right;
+        margin-right: 1%;
+        display: block;
+        }
+        .link {
+        color: white;
+        }    
+.central {
+background-color: #82c3a6;
+display: flex;
+}
+    .centro {
+    display: block;
+    margin: auto;
+    }
+
+.segundo {
+background-color: #d5c75f;
+border-radius: 1px;
+display: flex;
+margin: auto;
+}
+    .imagen {
+    position: relative;
+    left: 10%;
+    right: 20%;
+    text-align: center;
+    }
+        .imagen img:hover {
+        transform: rotate(10deg);
+	    box-shadow: 2px 2px #82c3a6;
+        }
+    .imagen2 {
+    position: relative;
+    left: 20%;
+    right: 10%;
+    text-align: center;
+    }   
+        .imagen2 img:hover {
+        transform:translatey(-5px) translateX(20px);
+        box-shadow: 2px 2px #82c3a6;
+        }
+footer {
+background-color: #C6d5c5;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+margin: auto;
+}
+    .contacto, .terminos, .redes, .derechos {
+    width: 80%;
+  
+    }
+    .contacto {
+    margin-left: 10px;
+    }
+    .derechos {
+    margin-right: 10px;
+    }
+    
+    
+    
+    
+    
