@@ -4,11 +4,24 @@ body{
     background-color: #02010a;
 }
     header {
-        background-color: #5b7989;
-        display: flex;
-        border-radius: 10px 10px 0px 0px;
-        color: white;
-        margin: auto;
+    background-color: #5b7989;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    margin: auto;
+    animation: animac 1s;
+    }
+
+    @-webkit-keyframes animac {
+        0% {
+            margin-top: 150%;
+        }
+        60% {
+            margin-top: -5%;
+        }
+        100% {
+            margin-top: 0%;
+        }
     }
         .titulo {
             width: 50%;
