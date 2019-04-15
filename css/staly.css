@@ -37,27 +37,35 @@ body{
     }
     .a1, .a2, .a3 {
     flex-flow: row wrap;
-    margin: auto;
+    margin: 1.5%;
     }
     .a4, .a5, .a6 {
     flex-flow: row wrap;
-    margin: auto;
-    }    
+    margin: 1.5%;
+    }
+        .a1 {
+        filter: blur(10px);
+        }
+        .a2, .a4, .a6 {
+        filter: grayscale(100%);
+        }
+        .a3 {
+        filter: sepia(90%);
+        }
 
-    footer {
-    background-color: #C6d5c5;
-    border-radius: 0px 0px 10px 10px;
-    display: flex;
-    margin: auto;
-     }
-        .contacto, .terminos, .redes, .derechos {
-         width: 80%;
-                  
-         }
-        .contacto {
-        margin-left: 1%;
-         }
-        .derechos {
-         margin-right: 1%;
-         }
+footer {
+background-color: #C6d5c5;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+margin: auto;
+}
+    .contacto, .terminos, .redes, .derechos {
+    width: 80%;              
+    }
+    .contacto {
+    margin-left: 1%;
+    }
+    .derechos {
+    margin-right: 1%;
+    }
                     
