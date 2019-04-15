@@ -68,6 +68,22 @@ margin: auto;
         transform:translatey(-5px) translateX(20px);
         box-shadow: 2px 2px #82c3a6;
         }
+footer {
+background-color: #C6d5c5;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+margin: auto;
+}
+    .contacto, .terminos, .redes, .derechos {
+    width: 80%;
+  
+    }
+    .contacto {
+    margin-left: 10px;
+    }
+    .derechos {
+    margin-right: 10px;
+    }
     
     
     
