@@ -81,4 +81,30 @@ margin: auto;
     .derechos {
     margin-right: 1%;
     }
-                    
+    @media  (max-width: 900px) {
+        header {
+            flex-direction: column;
+            display: flex;
+            order: 1;
+            margin: auto;
+            text-align: center;
+    
+        }
+        .fotos {
+            flex-direction: column;
+            display: flex;
+            order: 2;
+            margin: auto;
+        }
+            .fotos img {
+                width: 90%;
+                margin: 1%;
+            }
+        footer {
+            flex-direction: column;
+            display: flex;
+            order: 4;
+            margin: auto;
+        }
+      
+    }              

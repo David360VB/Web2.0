@@ -61,17 +61,17 @@ background-color: #d5c75f;
 border-radius: 1px;
 display: flex;
 margin: auto;
+flex-direction: row;
 }
     .imagen {
     position: relative;
-    left: 10%;
-    right: 20%;
+    margin: auto;
     text-align: center;
     
     }   
         .imagen img {
-            width: 250px;
-            height: 300px;
+            width: 450px;
+            height: 500px;
         }
         .imagen img:hover {
         transform: rotate(10deg);
@@ -80,13 +80,12 @@ margin: auto;
         }
     .imagen2 {
     position: relative;
-    left: 20%;
-    right: 10%;
+    margin: auto;
     text-align: center;
     }   
         .imagen2 img {
-            width: 250px;
-            height: 300;
+            width: 450px;
+            height: 500px;
         }
         .imagen2 img:hover {
         transform:translatey(-5px) translateX(20px);
@@ -131,18 +130,18 @@ margin: auto;
         text-align: center;
         margin: auto;
     }
-        .imagen {
-           width: 60%;
-           margin: auto;
+        .imagen img {
+           width: 80%;
+           margin: 1%;
         }
-        .imagen2 {
-            width: 60%;
-            margin: auto;
+        .imagen2 img {
+            width: 80%;
+            margin: 1%;
         }
     footer {
         flex-direction: column;
         display: flex;
         order: 4;
-    }
+        margin: auto;
   
 }
