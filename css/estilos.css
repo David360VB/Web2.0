@@ -116,8 +116,11 @@ margin: auto;
         order: 1;
         margin: auto;
         text-align: center;
-
     }
+        .nave {
+            width: 90%;
+            margin: 1%;
+        }
     .central {
         display: flex;
         order: 2;
